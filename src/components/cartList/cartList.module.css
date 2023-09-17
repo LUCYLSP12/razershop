@@ -1,0 +1,125 @@
+.cartTotalPrice{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    text-align: end;
+}
+.cartTotalTitle{
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 24px;
+    
+}
+
+
+
+
+.cartItem{
+    border-radius: 16px;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 32px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    row-gap: 12px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.cartItemLeft{
+    display: flex;
+    margin-bottom: 12px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cartItemImg{
+    width: 150px;
+    margin-right: 20px;  
+}
+
+.cartItemImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.cartItemInfo{
+    text-align: left;   
+}
+
+
+.cartItemInfo_name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 12px;
+}
+
+
+
+.cartItemInfo_link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+
+
+
+.cartItemRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px;
+}
+
+.productItemQuantity{
+    display: flex;
+    margin-right: 100px;
+    align-items: center;
+    gap: 16px;
+}
+
+.productItemQuantity span{
+    padding: 12px 20px;
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+
+.productItemPrice{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+
+.btnOrder{
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    height: 48px;
+    width: 174px;
+}

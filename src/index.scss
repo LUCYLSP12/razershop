@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// ! ПЕРЕМЕННЫЕ
+
+:root {
+  --bg-primary: #353131;
+  --primray-color: #fff;
+  --black-color: #000;
+  --white-color: #fff;
+  --form-bg: #fff;
+  --radious: 5px;
+}
+
+// $bg-color: #353131;
+// $primiray-color: #fff;
+// $secondary-color: #808080;
+
+@mixin flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg-primary);
+  color: var(--primray-color);
+  background: rgb(186,11,204);
+  background: linear-gradient(90deg, rgba(186,11,204,1) 0%, rgba(158,0,0,1) 0%, rgba(49,24,176,1) 100%, rgba(0,35,255,1) 100%);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button{
+  background: none;
+  outline: none;
+  border: none;
+}
+
+
+.container{
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}

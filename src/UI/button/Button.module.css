@@ -1,0 +1,10 @@
+.btn {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: white;
+  background: rgb(17,2,89);
+  background: linear-gradient(221deg, rgba(17,2,89,1) 2%, rgba(198,189,201,1) 6%, rgba(23,8,92,1) 26%, rgba(140,128,165,1) 27%, rgba(17,2,89,1) 28%, rgba(17,2,89,1) 36%, rgba(98,85,139,1) 42%, rgba(31,16,97,1) 50%, rgba(56,42,113,1) 57%, rgba(53,39,111,1) 58%, rgba(17,2,89,1) 73%, rgba(17,2,89,1) 74%, rgba(17,2,89,1) 76%);
+  border-radius: 10px;
+}

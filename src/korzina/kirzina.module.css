@@ -1,0 +1,22 @@
+.cartPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.cartImg{
+    width: 250px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+
+.cartTitle{
+    color: #fff;
+    font-weight: 500px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}

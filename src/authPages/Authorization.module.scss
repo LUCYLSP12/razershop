@@ -1,0 +1,49 @@
+@import "../index.scss";
+
+.auth{
+    max-width: 30%;
+    width: 100%;
+    padding: 30px;
+    background: var
+            (--form-bg);
+    border-radius: var(--radious);
+    margin: 0 auto;;
+
+
+    &_content{
+        background: var(none);
+        border-radius: 10px;
+        padding: 30px 50px;
+        color: var(--white-color);
+
+
+        @include flexColumn;
+    }
+
+
+
+    &_title{
+        text-align: center;
+        margin-top: 15px !important;
+    }
+
+    &_form{
+        @include flexColumn;
+
+        .form_img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form_link{
+            margin-left: 6px;
+            border-bottom: 1px #75b9fc;
+            color: #348ac0;
+
+        }
+
+        }   
+
+
+}

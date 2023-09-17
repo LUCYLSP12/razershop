@@ -1,0 +1,33 @@
+@import '../../index.scss';
+
+header{
+	margin-bottom: 50px;
+
+	.nav{
+		padding: 20px 0;
+	}
+
+	.navbar{
+		@include flexBetween;
+	}
+
+	.navbar_right{
+		display: flex;
+		flex-direction: row;
+
+		.cart{
+			width: 46px;
+		}
+		
+	}
+
+	.navbar_left img{
+	    margin-left: -269px;
+    margin-top: -14px;
+    width: 256px;
+    height: 147px;
+	}
+
+
+}
+
